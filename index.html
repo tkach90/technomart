@@ -5,7 +5,9 @@
 	<title>technomart</title>
 	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/node_modules/normalize.css">
-	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.css">
 </head>
 <body>
 	<header class="mainHeader">
@@ -94,49 +96,24 @@
 						<div class="tab-icon5"></div>
 					</div>
 				</div>
-
-				<!-- <div class="slider">
-                        <input type="radio" id="btn-1" name="toggle" checked>
-                        <input type="radio" id="btn-2" name="toggle">
-
-                        <div class="slider-controls">
-                            <label for="btn-1"></label>
-                            <label for="btn-2"></label>
-                        </div>
-
-                        <a class="btn-slider  btn-slider-left" href=""></a>
-                        <a class="btn-slider btn-slider-right" href=""></a>
-
-                        <div class="slides">
-
-                            <div class="slide">
-                                <div class="slide-text">
-                                    <h2>Дрели</h2>
-                                    <p>Соседям на радость!</p>
-                                </div>
-                                <a class="btn btn-slide" href="">Открыть каталог</a>
-                                <img src="img/slide1.jpg" width="620" height="270">
-                            </div>
-                            <div class="slide">
-                                <div class="slide-text">
-                                    <h2>Перфораторы</h2>
-                                    <p>Настоящие мужские игрушки</p>
-                                </div>
-                                <a class="btn btn-slide" href="">Открыть каталог</a>
-                                <img src="img/slide2.jpg" width="620" height="270">
-                            </div>
-
-                        </div>
-
-</div> -->
-				<!-- <div class="slider">
-					<div>
-						<h3>перфораторы</h3>
-						<p>Настоящие мужские игрушки</p>
+				<div class="owl-carousel owl-theme">
+					<div class="owl-item">
+						<div class="slide-text">
+							<h2>Дрели</h2>
+							<p>Соседям на радость!</p>
+						</div>
+						<a class="btn-slide" href="">Открыть каталог</a>
+						<img src="img/slide1.jpg" width="620px" height="270px">
 					</div>
-					<a href="#">Открыть каталог</a>
-					<img src="img/main_slide.png" alt="slide" width="621px" height="266px">
-				</div> -->
+					<div class="owl-item">
+						<div class="slide-text">
+							<h2>Перфораторы</h2>
+							<p>Настоящие мужские игрушки</p>
+						</div>
+						<a class="btn-slide" href="">Открыть каталог</a>
+						<img src="img/slide2.jpg" width="620px" height="270px">
+					</div>
+				</div>
 			</div>
 			<div class="gallery">
 				<div class="galHeader">
@@ -250,9 +227,9 @@
 					<footer class="mainFooter">
 						<div class="logoFooter">
 							<a href="#">техномарт</a>
-								<h2>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
-									+7 (812) 555-05-55
-								</h2>
+							<h2>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
+								+7 (812) 555-05-55
+							</h2>
 						</div>
 						
 						<nav class="footerNav">
@@ -291,5 +268,8 @@
 							<a class="btn" href="#">htmlacademy.ru</a>
 						</div>
 					</footer>
+					<script src="node_modules/jquery/dist/jquery.min.js"></script>
+					<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+					<script src="js/main.js"></script>
 				</body>
 				</html>
