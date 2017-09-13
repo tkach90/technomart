@@ -3,17 +3,10 @@
   "lockfileVersion": 1,
   "dependencies": {
     "jquery": {
-      "version": "3.2.1",
+      "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c=",
       "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
-      "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c="
+      "version": "3.2.1"
     },
-    "owl.carousel": {
-      "integrity": "sha1-81mNAeYHV7wQeys8YSMbEUDPNgw=",
-      "requires": {
-        "jquery": "3.2.1"
-      },
-      "resolved": "https://registry.npmjs.org/owl.carousel/-/owl.carousel-2.2.0.tgz",
-      "version": "2.2.0"
-    }
+    "owl.carousel": "^2.2.0"
   }
 }
